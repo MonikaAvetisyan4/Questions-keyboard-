@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(233,145,225);
+   background: linear-gradient(0deg, rgba(233,145,225,1) 0%, rgba(45,253,244,0.938813025210084) 100%);
+   height: 605px
+}
+.main{
+	width: 80%;
+	height: auto;
+	margin: 20px auto;
+	padding: 5px;
+}
+
+.keyboard{
+	width: 700px;
+	height: auto;
+	margin: 50px auto;
+	border: 1px solid black;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: pink;
+    opacity: 0.8;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+}
+
+.btns{
+	width: 50px;
+	height: 50px;
+	color:black;
+	margin: 5px;
+	cursor: pointer;
+	border: 1px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 26px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 26px -6px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 26px -6px rgba(0,0,0,0.75)
+	}
+.btns:focus{
+	/* outline: 0; */
+	color: red;
+}
+.harcer{
+	width: 520px;
+	height: 50px;
+	margin:10px auto;
+	text-align: center;
+	font-size: 20px;
+	background-color: lightpink;
+	padding: 8px;
+	
+}
+
+h2{
+	padding-top: 10px
+}
+.answerDiv{
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.vandakner{
+	 width: 50px;
+	 height: 50px;
+	 border: 2px solid white;
+	 background-color: #59eaf1;
+	 color:#59eaf1;
+	 margin: 2px;
+	-webkit-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+}
+.partutyun{
+	width: 400px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 1px solid black;
+	
+}
+.over{
+	width: 400px;
+	height: 100px;
+	background-color: orange;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.won{
+	width: 400px;
+	height:80px;
+	background-color:lightgreen;
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 1px solid black;
+	
+}
+.wonn{
+	width: 400px;
+	height: 100px;
+	background-color:green;
+	color: white;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 3px solid black;
+	
+}
+.wonn,.won, .harcer, .partutyun{
+-webkit-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 26px 0px rgba(0,0,0,0.75);
+	border-radius: 10px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
